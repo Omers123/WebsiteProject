@@ -1,0 +1,389 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+#topbar {
+    background-color: rgb(17, 116, 216);
+    display: flex;
+    justify-content: space-between;    
+}
+
+.img .Walmart-logo{
+    height: 80px;
+    padding-right: auto;
+    margin-right: auto;
+}
+
+#pod button {
+    transform: translateY(10px);
+    margin-left: -200px;
+    width: 350px;
+    border-radius: 100px;
+    height: 60px;
+    background-color: rgb(11, 11, 167);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    justify-content: center;
+}
+
+#search-bar {
+    transform: translateY(10px);
+    margin-left: -200px;
+    width: 450px;
+    border-radius: 100px;
+    height: 60px;
+}
+
+.fa-magnifying-glass {
+    margin-left: -40px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.shop button {
+    display: flex;
+    transform: translateX(-45px);
+    width: 100px;
+    height: 65px;
+    background-color: rgb(17, 116, 216);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    justify-content: center;
+    margin-top: 15px;
+    border-radius: 100px;
+}
+
+button .top{
+    margin-top: -25px;
+    margin-left: 10px;
+    position: relative;
+}
+
+button .btm {
+    margin-top: -10px;
+    margin-left: 10PX;
+}
+
+.fa-heart {
+    display: flex;
+    margin-top: 25px;
+    margin-left: -15px;
+}
+
+.fa-user {
+    display: flex;
+    margin-top: 25px;
+    margin-left: -15px
+}
+
+.shop button:hover {
+    background-color: rgb(41, 41, 126);
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    background-color: rgb(227, 244, 255);
+    height: 55px;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tabs button {
+    margin-top: 15px;
+    width: 160px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: white;
+    color: rgb(53, 77, 153);
+    font-weight: 600;
+    border: 0;
+}
+
+.tabs1 button {
+    font-weight: 1000;
+    margin-top: 15px;
+    width: 160px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: white;
+    color: rgb(53, 77, 153);
+    border: 0;
+}
+
+.more button {
+    margin-top: 15px;
+    width: 160px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: white;
+    color: rgb(53, 77, 153);
+    font-weight: 600;
+    border: 0;
+}
+
+nav button:hover {
+    border: 2px solid;
+}
+
+.yellow-banner {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(218, 218, 25);
+    margin: 10px 50px 20px;
+    margin-top: 70px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: larger;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 130px;
+}
+
+.merch {
+    display: flex;
+    height: auto;
+    margin: 10px 50px 20px;
+}
+
+.co button {
+    margin-right: 120px;
+    margin-top: 60px;
+    width: 200px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+.deal p{
+    margin-left: -15px;
+    position: absolute;
+    margin-top: 60px;
+}
+
+.time p {
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.dgb h2 {
+    width: 300px;
+}
+
+.keychain img {
+    height: 300px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -325px;
+}
+
+.price button {
+    margin-top: 450px;
+    margin-left: -250px;
+    height: 50px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: white;
+    font-weight: bolder;
+    font-size: large;
+    border: thin solid;
+
+}
+
+.price h1 {
+    margin-top: 20px;
+    margin-left: -245px;
+    font-weight: bolder;
+    font-size: large;
+    color: rgb(48, 187, 48);
+}
+
+.price h3 {
+    margin-top: 60px;
+    margin-left: -245px;
+    
+}
+
+.eggs img {
+    height: 200px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 60px;
+}
+
+.price1 button {
+    margin-top: 450px;
+    margin-left: 40px;
+    height: 50px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: white;
+    font-weight: bolder;
+    font-size: large;
+    border: thin solid;
+}
+
+.price1 h3 {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-weight: bolder;
+    font-size: large;
+    color: rgb(48, 187, 48);
+}
+
+.price1 h4 {
+    margin-top: 20px;
+    margin-left: 40px;
+    
+}
+
+.pocky img {
+    height: 350px;
+    position: absolute;
+    transform: translateX(190px);
+    margin-top: 80px;
+}
+
+.price2 button {
+    margin-top: 450px;
+    margin-left: 280px;
+    height: 50px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: white;
+    font-weight: bolder;
+    font-size: large;
+    border: thin solid;
+}
+
+.price2 h3 {
+    margin-top: 20px;
+    margin-left: 280px;
+    font-weight: bolder;
+    font-size: large;
+    color: rgb(48, 187, 48);
+}
+
+.price2 h4 {
+    margin-top: 20px;
+    margin-left: 280px;
+    
+}
+
+.noodles img {
+    height: 240px;
+    position: absolute;
+    transform: translateX(200px);
+    margin-top: 80px;
+}
+
+.price3 button {
+    margin-top: 450px;
+    margin-left: 220px;
+    height: 50px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: white;
+    font-weight: bolder;
+    font-size: large;
+    border: thin solid;
+}
+
+.price3 h3 {
+    margin-top: 20px;
+    margin-left: 220px;
+    font-weight: bolder;
+    font-size: large;
+    color: rgb(48, 187, 48);
+}
+
+.price3 h4 {
+    margin-top: 20px;
+    margin-left: 220px;
+    
+}
+
+.ps5 img {
+    height: 250px;
+    position: absolute;
+    transform: translateX(50px);
+    margin-top: 80px;
+}
+
+.price4 button {
+    margin-top: 450px;
+    margin-left: 220px;
+    height: 50px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: white;
+    font-weight: bolder;
+    font-size: large;
+    border: thin solid;
+}
+
+.price4 h3 {
+    margin-top: 20px;
+    margin-left: 220px;
+    font-weight: bolder;
+    font-size: large;
+    color: rgb(48, 187, 48);
+}
+
+.price4 h4 {
+    margin-top: 20px;
+    margin-left: 220px;
+    
+}
+
+
+footer ul{
+    display: flex;
+    background-color: rgb(17, 116, 216);
+    height: 170px;
+}
+
+.details li {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 32px;
+    gap: 15px;
+    width: 500px;
+}
+
+.about-us {
+    display: inline;
+}
+
+.feedback {
+    background-color: rgb(227, 244, 255);
+    height: 100px;
+}
+
+.feedback p {
+    margin-left: 800px;
+}
+
+.feedback button {
+    margin-top: 15px;
+    width: 160px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: white;
+    color: rgb(53, 77, 153);
+    font-weight: 600;
+    border: 0;
+    margin-left: 830px;
+}
+
